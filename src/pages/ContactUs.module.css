@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    height: max-content;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    padding: 5vh;
+}
+
+.leftSide {
+    font-size: 6.4vh;
+}
+
+.add {
+    font-family: 'Cabin', sans-serif;
+}
+
+.add1 {
+    font-size: 3.2vh;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.add2 {
+    font-size: 3.2vh;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.rightSide {
+}
+
+.callUs {
+    font-size: 6.4vh;
+    font-family: 'Cabin', sans-serif;
+}
+
+.num1 {
+    font-size: 3.2vh;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.num2 {
+    font-size: 3.2vh;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+@media only screen and (max-width: 1025px) {
+    .container {
+        padding: 4vh;
+    }
+    .leftSide {
+        font-size: 3.1vh;
+    }
+    
+    .add {
+    }
+    
+    .add1 {
+        font-size: 1.8vh;
+    }
+    
+    .add2 {
+        font-size: 1.8vh;
+    }
+    
+    .rightSide {
+    }
+    
+    .callUs {
+        font-size: 3.1vh;
+    }
+    
+    .num1 {
+        font-size: 1.8vh;
+    }
+    
+    .num2 {
+        font-size: 1.8vh;
+    }
+
+}

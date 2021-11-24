@@ -1,0 +1,146 @@
+.container {
+    display: grid;
+    grid-template-columns: 30vw 30vw;
+    gap: 1.5vw 6vw;
+}
+
+.item {
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 2vw;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+.name {
+    font-size: 1.4vw;
+    color: #fc8019;
+    max-width: 80%;
+    text-align: left;
+    font-family: 'DM Serif Display', serif;
+}
+
+.line {
+}
+
+.price {
+    font-size: 1.4vw;
+    color: #a15427;
+    font-family: 'DM Serif Display', serif;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 0.7vw;
+}
+
+.desc {
+    font-size: 1.1vw;
+    max-width: 80%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    color: #6c6b6a;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.addSec {
+}
+
+.addBtn {
+    text-align: center;
+    margin-right: 1.8vw;
+    height: 1.8vw;
+    background-color: #fefaf5;
+    border-radius: 4px;
+    border: 2px solid #d3cbb9;
+    color: #807664;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.addBtn:hover {
+    cursor: pointer;
+}
+
+.addQuant {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.btn {
+    border: none;
+    background-color: inherit;
+    font-size: 1.3vw;
+    height: 1vw;
+    color: #807664;
+    background-color: #fefaf5;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.quantity {
+    width: 1.4vw;
+    height: 0.6vw;
+    text-align: center;
+    background-color: #fefaf5;
+    border-radius: 4px;
+    border: 2px solid #d3cbb9;
+    color: #807664;
+}
+
+@media only screen and (max-width: 1025px) {
+    .container {
+        grid-template-columns: 70vw;
+        gap: 9px;
+    }
+
+    .name {
+        font-size: 4.5vw;
+    }
+
+    .price {
+        font-size: 4.5vw;
+    }
+
+    .bottom {
+        margin-top: 5px;
+    }
+
+    .desc {
+        max-width: 50vw;
+        font-size: 4vw;
+    }
+
+    .addBtn {
+        min-height: 5vw;
+        font-size: 3vw;
+    }
+
+    .btn {
+        font-size: 4vw;
+        height: 13px;
+        padding: auto;
+        margin: auto;
+    }
+
+    .quantity {
+        width: 5vw;
+        height: 2vw;
+        padding: auto;
+        margin: auto;
+    }
+}

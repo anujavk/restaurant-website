@@ -1,0 +1,89 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    height: max-content;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    background-image: url('../assets/menuBgR.jpg');
+    background-size: auto;
+}
+
+.title {
+    color: #ff4916;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+
+.iconsBtn {
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+    width: 700px;
+    justify-content: space-evenly;
+    margin: 6vh;
+}
+
+.icon {
+    font-size: 3.5vw;
+    margin: 0;
+    padding: 0;
+}
+
+.icon img {
+    margin: 0;
+    padding: 0;
+    height: 4.5vw;
+    width: 4.5vw;
+}
+
+.icon img:hover {
+    cursor: pointer;
+    font-size: 4vw;
+    height: 4.8vw;
+    width: 4.8vw;
+}
+
+.underline {
+    height: 2px;
+    background-color: #fc8019;
+}
+
+.menuContent {
+}
+
+@media only screen and (max-width: 1025px) {
+    .menu {
+        height: max-content;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    .title {
+        font-size: 7vw;
+    }
+
+    .iconsBtn {
+        margin: 3vh;
+        width: 360px;
+    }
+
+    .icon {
+        font-size: 10vw;
+    }
+
+    .icon img {
+        height: 10vw;
+        width: 10vw;
+    }
+
+    .icon img:hover {
+        height: 10.8vw;
+        width: 10.8vw;
+    }
+}

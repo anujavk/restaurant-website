@@ -1,0 +1,92 @@
+.container {
+    text-align: left;
+    line-height: 30px;
+}
+.pdetails {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.product {
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    font-size: 20px;
+    border-bottom: 1.5px solid rgb(174, 174, 174);
+    color: #a25629;
+}
+
+.productList {
+    color: rgb(79, 79, 79);
+}
+
+.productName {
+    width: 50%;
+}
+
+.productPrice {
+    width: 50%;
+    text-align: right;
+}
+
+.label {
+    width: 50%;
+    font-weight: bold;
+}
+
+.totalBill {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    border-bottom: 1.5px solid rgb(174, 174, 174);
+    border-top: 1.5px solid rgb(174, 174, 174);
+    color: #6e3b1d;
+}
+
+.total {
+    width: 50%;
+    text-align: right;
+}
+
+.udetails {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    gap: 0 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: rgb(79, 79, 79);
+}
+
+.udetails1 {
+    width: 50%;
+}
+
+.udetails2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.udetails22 {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    gap: 0 0;
+}
+
+.name {
+    width: 100%;
+}
+
+.address {
+    width: 100%;
+}
+
+.cardDetails {
+    width: 50%;
+}

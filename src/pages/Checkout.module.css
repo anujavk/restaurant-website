@@ -1,0 +1,115 @@
+.container {
+    height: max-content;
+    width: max-content;
+    margin: auto;
+    margin-top: 8vw;
+    margin-bottom: 4vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    border: 1px solid #cecece;
+    border-radius: 0.2vw;
+    padding: 30px;
+}
+
+header {
+}
+
+.headerTitle {
+    font-size: 2.2vw;
+    color: rgb(76, 76, 76);
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+.headerSubTitle {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    gap: 0 1vw;
+    margin-top: 40px;
+    font-size: 0.95vw;
+    font-family: 'Roboto Slab', serif;
+}
+
+.headerSubTitle1 {
+    display: flex;
+    flex-direction: row;
+    gap: 0 3px;
+    align-items: center;
+}
+
+.circle {
+    width: 1vw;
+    height: 1vw;
+    background: #fc8019;
+    border-radius: 50%;
+}
+
+.solid {
+    width: 1vw;
+    height: 1vw;
+    border: 1px solid #fc8019;
+    background: white;
+    border-radius: 50%;
+}
+
+.hText {
+}
+
+main {
+    min-height: 200px;
+    width: 470px;
+    margin: 1vw;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    gap: 0 30px;
+}
+
+footer button {
+    font-size: 1.1vw;
+    background-color: #fc8019;
+    color: white;
+    border: 1px solid #bb5603;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1025px) {
+    .container {
+        margin-top: 25vw;
+        padding: 25px;
+    }
+    .headerTitle {
+        font-size: 8vw;
+    }
+    .headerSubTitle {
+        margin-top: 35px;
+        margin-bottom: 20px;
+        font-size: 5vw;
+        gap: 0 5vw;
+    }
+    .circle {
+        width: 4.5vw;
+        height: 4.5vw;
+    }
+    .solid {
+        width: 4.5vw;
+        height: 4.5vw;
+    }
+    footer button {
+        font-size: 4.5vw;
+    }
+}

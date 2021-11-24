@@ -1,0 +1,112 @@
+.outerDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    background-color: #f8f1e8;
+    background-image: url('../../assets/paperbg.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.title {
+    font-size: 40px;
+    color: #fb8519;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    gap: 3rem;
+    margin-top: 40px;
+    height: max-content;
+}
+
+.arrowBtn {
+    height: 2rem;
+    width: 3rem;
+    border: none;
+    font-size: 2rem;
+    background-color: white;
+    color: #403f3f;
+    text-align: center;
+    background-color: inherit;
+    padding: auto;
+    margin: auto;
+}
+
+.arrowBtn:hover {
+    cursor: pointer;
+    font-size: 2.2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: auto;
+    width: 753px;
+    height: max-content;
+}
+
+.cards {
+    background-color: bisque;
+}
+
+@media only screen and (max-width: 1025px) {
+    .outerDiv {
+        gap: 0;
+        padding-top: 10vw;
+        padding-bottom: 8vw;
+    }
+
+    .title {
+        font-size: 6vw;
+        margin-bottom: 5vw;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        margin-top: 0;
+        height: max-content;
+        gap: 0;
+    }
+
+    .arrowBtn {
+        height: 2rem;
+        width: 3rem;
+        border: none;
+        font-size: 1.5rem;
+        background-color: white;
+        color: #403f3f;
+        text-align: center;
+        background-color: inherit;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        width: 251px;
+        gap: 35px;
+    }
+}

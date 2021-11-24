@@ -1,0 +1,17 @@
+.btn {
+    background: rgba(255, 255, 255, 0.136);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 0 0.8vw 0.1vw 0.8vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btn:hover {
+    box-shadow: 0 8px 10px 0 rgba(255, 85, 0, 0.5);
+    cursor: pointer;
+}
