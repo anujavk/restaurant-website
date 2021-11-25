@@ -9,7 +9,7 @@
     align-items: center;
     padding-left: 3vw;
     padding-right: 3vw;
-    margin-top: 10vw;
+    margin-top: 3.5vw;
     font-family: 'Bree Serif', serif;
 }
 
@@ -130,6 +130,7 @@
         background-image: none;
         background: rgb(252, 128, 25);
         background: linear-gradient(90deg, rgba(252, 128, 25, 1) 28%, rgba(252, 137, 29, 1) 54%, rgba(244, 123, 1, 1) 82%, rgba(252, 128, 25, 1) 100%);
+        margin-top: 10vw;
     }
     .itemLeft {
         margin: 0;
