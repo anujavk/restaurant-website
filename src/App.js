@@ -1,5 +1,4 @@
-import { useState, Fragment, useEffect, useContext } from 'react';
-import { Redirect } from 'react-router';
+import { useState, Fragment, useEffect } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import NavBar from './components/Header/NavBar';
 import Cart from './components/Cart/Cart';
@@ -11,12 +10,10 @@ import ComboSection from './pages/ComboSection';
 import Menu from './pages/Menu';
 import ContactUs from './pages/ContactUs';
 import Checkout from './pages/Checkout';
-import CartContext from './store/cart-context';
 
 function App() {
     const [cartIsShown, setCartIsShown] = useState(false);
     const [showLoader, setShowLoader] = useState(true);
-    const cartCtx = useContext(CartContext);
 
     const showCartHandler = () => {
         setCartIsShown(true);
@@ -50,7 +47,7 @@ function App() {
                                 <Menu />
                                 <ContactUs />
                             </Route>
-                            <Route path="/checkout">{cartCtx.items.length > 0 ? <Checkout /> : <Redirect to="/" />}</Route>
+                            <Route path="/checkout" component={Checkout} />
                         </div>
                     </div>
                 </CartProvider>

@@ -21,17 +21,6 @@ const Cart = (props) => {
         props.onClose();
     };
 
-    const submitOrderHandler = async (userData) => {
-        /* await fetch('https://react-http-6b4a6.firebaseio.com/orders.json', {
-            method: 'POST',
-            body: JSON.stringify({
-                user: userData,
-                orderedItems: cartCtx.items,
-            }),
-        });
-        cartCtx.clearCart(); */
-    };
-
     const cartItems = (
         <ul className={classes['cart-items']}>
             {cartCtx.items.map((item) => (

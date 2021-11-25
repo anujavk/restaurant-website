@@ -4,9 +4,6 @@
     gap: 1.5vw 6vw;
 }
 
-.item {
-}
-
 .top {
     display: flex;
     flex-direction: row;
@@ -23,9 +20,6 @@
     max-width: 80%;
     text-align: left;
     font-family: 'DM Serif Display', serif;
-}
-
-.line {
 }
 
 .price {
@@ -51,9 +45,6 @@
     text-align: left;
     color: #6c6b6a;
     font-family: 'Fira Sans', sans-serif;
-}
-
-.addSec {
 }
 
 .addBtn {

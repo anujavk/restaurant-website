@@ -1,4 +1,3 @@
-import classes from './ComboSection.module.css';
 import ComboMeals from '../components/Meals/ComboMeals';
 
 const ComboSection = () => {

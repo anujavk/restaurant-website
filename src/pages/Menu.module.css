@@ -54,9 +54,6 @@
     background-color: #fc8019;
 }
 
-.menuContent {
-}
-
 @media only screen and (max-width: 1025px) {
     .menu {
         height: max-content;

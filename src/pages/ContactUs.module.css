@@ -28,9 +28,6 @@
     font-family: 'Fira Sans', sans-serif;
 }
 
-.rightSide {
-}
-
 .callUs {
     font-size: 6.4vh;
     font-family: 'Cabin', sans-serif;
@@ -54,18 +51,12 @@
         font-size: 3.1vh;
     }
     
-    .add {
-    }
-    
     .add1 {
         font-size: 1.8vh;
     }
     
     .add2 {
         font-size: 1.8vh;
-    }
-    
-    .rightSide {
     }
     
     .callUs {
