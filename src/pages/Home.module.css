@@ -9,7 +9,7 @@
     align-items: center;
     padding-left: 3vw;
     padding-right: 3vw;
-    margin-top: 3.5vw;
+    margin-top: 10vw;
     font-family: 'Bree Serif', serif;
 }
 
@@ -164,15 +164,20 @@
     }
     .itemLeftAddList {
         display: flex;
+        flex-direction: row;
         list-style: none;
-        gap: 1.5vw;
-        padding-left: 2vw;
-        font-size: 4vw;
+        gap: 6vw;
+        padding-left: 5vw;
+        font-size: 3vw;
+    }
+    .itemLeftAddList li{
+        line-height: 100%;
     }
     .itemLeftAddPrice {
         word-spacing: 40vw;
         font-size: 3vw;
         line-height: 3.5vw;
+        padding-left: 8vw;
     }
     .itemLeftAddBtn {
         margin: auto;
