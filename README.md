@@ -2,7 +2,8 @@
 
 This is an ecommerce website built using React with firebase to store data\
 A demo for the Website App is available [here](https://anujavk.github.io/restaurant-website/).\
-The app is responsive (suitable for different screen sizes - phone, tablet, etc.)
+The app is responsive (suitable for different screen sizes - phone, tablet, etc.)!
+[restaurant](restro-demo.gif "restaurant")
 
 ## Installation
 
