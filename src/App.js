@@ -37,7 +37,7 @@ function App() {
     }, []);
 
     const content = (
-        <BrowserRouter>
+        <BrowserRouter basename="/restaurant-website">
             <CheckoutProvider>
                 <CartProvider>
                     <div>
