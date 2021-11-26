@@ -42,7 +42,7 @@ const ComboMeals = () => {
 
     return (
         <div className={classes.outerDiv}>
-            <div className={classes.title}>______ Speical Combo ______</div>
+            <div className={classes.title}>______ Special Combo ______</div>
             <section className={classes.main}>
                 <button className={classes.arrowBtn} onClick={scrollLeftHandler}>
                     <IoIosArrowDropleftCircle />
